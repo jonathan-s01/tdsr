@@ -3,3 +3,12 @@
 dist/
 build/
 venv/
+# Settings for a development copy; can hold an API key.
+/tdsr.cfg
+# AI key for a development copy. Never commit or upload it.
+/tdsr.key
+*.key
+__pycache__/
+.DS_Store
+tdsr.log
+*.unreadable-*

@@ -1,6 +1,39 @@
 [speech]
 process_symbols = False
 prompt = .*
+ignore_symbols = True
+ignore_symbols_ranges = 2500-257F,2580-259F,25A0-25FF,E0B0-E0BF
+scrollback_lines = 1000
+cursor_settle_max = 0.25
+punctuation_level = some
+announce_indent = False
+indent_unit = 1
+announce_bell = True
+announce_command_done = False
+logical_lines = True
+announce_columns = True
+column_gap = 3
+column_marker = ,
+selection_mode = stream
+shift_arrow_selection = False
+strip_prompt = True
+prompt_strip_pattern = ^[^\s@]+@[^\s$\x25#]+(?:\s+[^$\x25#]*?)?[$\x25#]\s
+stop_at_last_line = True
+
+[ai]
+enabled = False
+provider = auto
+model = claude-sonnet-5-5
+context_mode = screen
+context_lines = 60
+context_chars = 12000
+redact = True
+profile_file = ~/.tdsr-ai-profiles
+profile =
+announce_usage = False
+history_chars = 40000
+
+[keys]
 
 [commands]
 

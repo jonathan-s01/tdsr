@@ -29,7 +29,8 @@ dependencies = [
 ]
 
 [project.urls]
-Home = "https://github.com/tspivey/tdsr"
+Home = "https://github.com/jonathan-s01/tdsr"
+Original = "https://github.com/tspivey/tdsr"
 
 [project.scripts]
 tdsr = "tdsr.__main__:main"
